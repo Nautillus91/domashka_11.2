@@ -3,3 +3,9 @@ def upper_txt(txt):
     return txt.upper()
 result = upper_txt("hello world")
 print(result)
+
+def title_txt(txt):
+    """функция, которая делает заглавными первые буквы каждого слова в строке"""
+    return txt.title()
+result = title_txt("hello world")
+print(result)
